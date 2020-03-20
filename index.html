@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acryclic Painting Gallery</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,7 +24,7 @@
         </section>
 
         <section class="card">
-            <img src="img/paint-2.png" alt="">
+            <img src="img/paint-2.png" alt="" data-aos="fade-left">
             <div>
                 <h3>Acryclic Painting Two</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, doloribus? Labore unde, rerum maiores excepturi mollitia id minima assumenda magni fuga libero cupiditate, ipsum totam in inventore perferendis harum maxime.</p>
@@ -32,7 +33,7 @@
         </section>
 
         <section class="card">
-            <img src="img/paint-3.png" alt="">
+            <img src="img/paint-3.png" alt="" data-aos="fade-right">
             <div>
                 <h3>Acryclic Painting Three</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, doloribus? Labore unde, rerum maiores excepturi mollitia id minima assumenda magni fuga libero cupiditate, ipsum totam in inventore perferendis harum maxime.</p>
@@ -41,7 +42,7 @@
         </section>
 
         <section class="card">
-            <img src="img/paint-4.png" alt="">
+            <img src="img/paint-4.png" alt="" data-aos="fade-left">
             <div>
                 <h3>Acryclic Painting Four</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, doloribus? Labore unde, rerum maiores excepturi mollitia id minima assumenda magni fuga libero cupiditate, ipsum totam in inventore perferendis harum maxime.</p>
@@ -50,7 +51,7 @@
         </section>
 
         <section class="card">
-            <img src="img/paint-5.png" alt="">
+            <img src="img/paint-5.png" alt="" data-aos="fade-right">
             <div>
                 <h3>Acryclic Painting Five</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, doloribus? Labore unde, rerum maiores excepturi mollitia id minima assumenda magni fuga libero cupiditate, ipsum totam in inventore perferendis harum maxime.</p>
@@ -58,5 +59,13 @@
             </div>
         </section>
     </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:400,
+            duration:1100
+        });
+    </script>
 </body>
 </html>
